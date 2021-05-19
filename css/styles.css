@@ -1,0 +1,74 @@
+/*
+ -------------------------------------------
+   Origanal Author: Seyon Rajagopal
+   Copyright (c) 2020 Seyon Rajagopal
+
+   Stripped by Arran Curran
+ -------------------------------------------
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100vw;
+}
+
+/* css for start page asking for username */
+#repo-box {
+  width: 80vw;
+  margin: 10vh auto;
+}
+
+#repo-box a {
+  text-decoration: none;
+}
+
+.repo-item {
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+  background-color: #2e3047;
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+
+.description {
+  color: white;
+  padding: 1rem 0;
+}
+
+.title {
+  font-size: 30px;
+  color: #008aa4;
+  padding: 2rem 0;
+}
+
+.language, .star, .fork {
+  max-width: 100px;
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+
+}
+
+.repo-item:hover {
+  text-decoration: none;
+  background-color: #3e4163;
+  transition: ease-in-out 0.2s;
+}
+
+.repo-item:hover>div>div {
+  color: #008aa4;
+  transition: ease-in-out 0.2s;
+}
+
+a:hover {
+  text-decoration: none;
+}
